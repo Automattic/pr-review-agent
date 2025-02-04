@@ -14,7 +14,7 @@ Note: the agent uses custom modifications to the base MCP servers from Anthropic
 
 1. Clone the repository.
 2. Inside the cloned repository run `git submodule update --init --recursive` to get the mcp-servers.
-3. Copy the `.env.example` file to `.env` and fill in the required values.
+3. Copy the `.env.example` file to `.env` and fill in the required values. You will need a Github personal access token.
 4. Copy the `prompt.example` file to `prompt.md` file and make any changes you need.
 5. Open Cursor (v0.45+) and go to `Cursor -> Settings -> Cursor Settings -> Features -> MCP Servers`
 6. Add the following MCP servers:
