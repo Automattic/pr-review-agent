@@ -19,8 +19,9 @@ A friendly PR review agent for Github PRs on your projects.
     - Command: `bash [PATH_TO_REVIEW_AGENT_FOLDER]/start-github.sh`
 7. Restart Cursor (or Developer: Reload Window)
 8. Go back to the MCP Servers settings, hit the refresh button and confirm you see the tools for both the Git and GitHub servers.
-9. Update your Cursor rules to shortcut to the review agent:
-    - `When you see @@review used, always load the contents of this file first: [PATH_TO_REVIEW_AGENT_FOLDER]/prompt.md and follow the instructions. Use the PR URL given, or ask for a PR URL to use if there is none.`
+9. Add the following to your Cursor rules for AI, be sure to update the path to folder:
+
+> When you see @@review used, always load the contents of this file first: [PATH_TO_REVIEW_AGENT_FOLDER]/prompt.md and follow the instructions. Use the PR URL given, or ask for a PR URL to use if there is none.
 
 ## Usage
 
