@@ -1,0 +1,3 @@
+[submodule "mcp-servers"]
+	path = mcp-servers
+	url = https://github.com/Automattic/mcp-servers.git
