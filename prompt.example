@@ -33,5 +33,4 @@ Follow these steps for an accurate review:
   * Once approved, post it as a comment using tool: 'add_issue_comment'.
 
 Important:
-  * The git repo path is: /Users/apeatling/Developer/Sites/big-sky/big-sky-plugin
   * Ignore the git repo path for anything other than git tool usage.
