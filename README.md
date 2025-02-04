@@ -25,7 +25,7 @@ A friendly PR review agent for Github PRs on your projects.
 
 ## Usage
 
-1. Open the Cursor composer and select to use the "Agent".
+1. Open the Cursor composer and select to use the "Agent". You don't need to be in your project folder.
 2. Type `@@review` and paste a link to a Github PR that has been opened for the project you pointed the `PROJECT_REPOSITORY_PATH` in `.env` to.
 3. The agent will ask you to run a number of Github and Git MCP tools and gather the information it needs to review the PR.
 4. The agent will then write a review of the PR and share it with you for approval.
