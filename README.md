@@ -4,9 +4,11 @@ A friendly PR review agent for Github PRs on your projects.
 
 ## Requirements
 
-- [uv](curl -LsSf https://astral.sh/uv/install.sh | sh)
-- [npx](npm i -g npx)
-- [cursor](https://www.cursor.com/)
+- [**uv**](https://docs.astral.sh/uv/getting-started/installation/)
+- [**npx**](https://docs.npmjs.com/cli/v8/commands/npx): Install using: `npm i -g npx`
+- [**cursor**](https://www.cursor.com/)
+
+Note: the agent uses custom modifications to the base MCP servers from Anthropic, this is why you need to install them and run locally.
 
 ## Setup
 
