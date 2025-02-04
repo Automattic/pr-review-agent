@@ -1,2 +1,3 @@
-# pr-review-bot
-Code for setting up an MCP-based PR review bot using your favorite LLM
+# Github PR Review Bot
+
+A friendly PR review bot for Github PRs on your projects.
