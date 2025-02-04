@@ -2,13 +2,20 @@
 
 A friendly PR review agent for Github PRs on your projects.
 
+## Requirements
+
+- [uv](curl -LsSf https://astral.sh/uv/install.sh | sh)
+- [npx](npm i -g npx)
+- [cursor](https://www.cursor.com/)
+
 ## Setup
 
 1. Clone the repository.
-2. Copy the `.env.example` file to `.env` and fill in the required values.
-3. Copy the `prompt.example` file to `prompt.md` file and make any changes you need.
-4. Open Cursor (v0.45+) and go to `Cursor -> Settings -> Cursor Settings -> Features -> MCP Servers`
-5. Add the following MCP servers:
+2. Inside the cloned repository run `git submodule update --init --recursive` to get the mcp-servers.
+3. Copy the `.env.example` file to `.env` and fill in the required values.
+4. Copy the `prompt.example` file to `prompt.md` file and make any changes you need.
+5. Open Cursor (v0.45+) and go to `Cursor -> Settings -> Cursor Settings -> Features -> MCP Servers`
+6. Add the following MCP servers:
   * **Git**:
     - Name: `Git`
     - Type: `Command`
