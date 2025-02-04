@@ -14,10 +14,11 @@ Note: the agent uses custom modifications to the base MCP servers from Anthropic
 
 1. Clone the repository.
 2. Inside the cloned repository run `git submodule update --init --recursive` to get the mcp-servers.
-3. Copy the `.env.example` file to `.env` and fill in the required values. You will need a Github personal access token.
-4. Copy the `prompt.example` file to `prompt.md` file and make any changes you need.
-5. Open Cursor (v0.45+) and go to `Cursor -> Settings -> Cursor Settings -> Features -> MCP Servers`
-6. Add the following MCP servers:
+3. Run `npm install --prefix mcp-servers` to install mcp-servers dependencies.
+4. Copy the `.env.example` file to `.env` and fill in the required values. You will need a Github personal access token.
+5. Copy the `prompt.example` file to `prompt.md` file and make any changes you need.
+6. Open Cursor (v0.45+) and go to `Cursor -> Settings -> Cursor Settings -> Features -> MCP Servers`
+7. Add the following MCP servers:
   * **Git**:
     - Name: `Git`
     - Type: `Command`
@@ -26,9 +27,9 @@ Note: the agent uses custom modifications to the base MCP servers from Anthropic
     - Name: `GitHub`
     - Type: `Command`
     - Command: `bash [PATH_TO_REVIEW_AGENT_FOLDER]/start-github.sh`
-7. Restart Cursor (or Developer: Reload Window)
-8. Go back to the MCP Servers settings, hit the refresh button and confirm you see the tools for both the Git and GitHub servers.
-9. Add the following to your Cursor rules for AI, be sure to update the path to folder:
+8. Restart Cursor (or Developer: Reload Window)
+9. Go back to the MCP Servers settings, hit the refresh button and confirm you see the tools for both the Git and GitHub servers.
+10. Add the following to your Cursor rules for AI, be sure to update the path to folder:
 
 > When you see @@review used, always load the contents of this file first: [PATH_TO_REVIEW_AGENT_FOLDER]/prompt.md and follow the instructions. Use the PR URL given, or ask for a PR URL to use if there is none.
 
