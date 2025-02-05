@@ -35,7 +35,8 @@ Note: the agent uses custom modifications to the base MCP servers from Anthropic
 
 ## Usage
 
-1. Open the Cursor composer and select to use the "Agent". You don't need to be in your project folder.
+1. Open the Cursor composer and select to use the "Agent".
+    - Note: You do not need to be inside the project folder, however doing so will provide the agent with more context.
 2. Type `@@review` and paste a link to a Github PR that has been opened for the project you pointed the `PROJECT_REPOSITORY_PATH` in `.env` to.
 3. The agent will ask you to run a number of Github and Git MCP tools and gather the information it needs to review the PR.
 4. The agent will then write a review of the PR and share it with you for approval.
