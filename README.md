@@ -45,7 +45,7 @@ Note: the agent uses custom modifications to the base MCP servers from Anthropic
 ## Notes
 
 * This will also work for other MCP supporting tools like Claude Desktop, or Goose.
-* The agent will only review the diff, it will not yet read the full PR description.
+* ~The agent will only review the diff, it will not yet read the full PR description.~ The agent will now read your PR descriptions to guide its review.
 * The agent will not yet make any changes to the PR, it will only review the diff.
 
 ## Future Work
